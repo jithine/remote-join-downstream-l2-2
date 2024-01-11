@@ -1,7 +1,7 @@
 shared:
     image: node:20
 jobs:
-    component
+    component:
         requires: ~sd@12907:first
         steps:
             - echo: echo component
